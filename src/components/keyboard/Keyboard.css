@@ -1,0 +1,49 @@
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #6CA79C;
+    padding: 2em 3em;
+    border-radius: 2em;
+}
+
+.keyboard__row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.keyboard__letter {
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 15px;
+    outline: 5px solid transparent;
+    border: none;
+    padding: 0.3rem 0;
+    min-width: 5.5rem;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.keyboard__letter--default {
+    background-color: #ABD9D0;
+    color: #3B665C;
+}
+
+.keyboard__letter--default:hover {
+    outline-color: #D6654D;
+}
+
+.keyboard__letter--guessed {
+    background-color: #D6654D;
+    color: #F4F5DA;
+}
+
+.keyboard__letter--error {
+    cursor: default;
+    background-color: #262626;
+    color: #909090;
+}
+
+

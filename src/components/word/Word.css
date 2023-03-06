@@ -1,0 +1,37 @@
+.word {
+    display: flex;
+    gap: 0.625rem;
+    margin: auto;
+}
+
+.word__letter-cont {
+    position: relative;
+    background-color: #F0D9C9;
+    min-width: 4.563rem;
+    min-height: 6rem;
+    border-radius: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.word__letter {
+    font-size: 3.5rem;
+    color: #3B665C;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.word__red-line {
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translateX(-50%);
+    width: 3rem;
+    background-color: #CD715C;
+    height: 0.4rem;
+}
+
+.word__letter--hidden, .word__red-line--hidden {
+    visibility: hidden;
+}
