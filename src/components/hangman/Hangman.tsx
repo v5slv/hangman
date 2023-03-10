@@ -3,7 +3,7 @@ import './Hangman.css';
 export const Hangman = () => {
     return (
         <div className="hangman">
-            <svg className='hangman__svg' width="337" height="320" viewBox="0 0 337 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='hangman__svg' width="260" height="320" viewBox="0 0 337 320" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <line x1="3" y1="317" x2="334" y2="317" stroke="black" stroke-width="6" stroke-linecap="round"/>
                 <line x1="31.1349" y1="315" x2="31.1349" y2="6" stroke="black" stroke-width="6" stroke-linecap="round"/>
                 <line x1="4.55164" y1="3" x2="271.631" y2="3" stroke="black" stroke-width="6" stroke-linecap="round"/>
@@ -18,7 +18,7 @@ export const Hangman = () => {
             </svg>
             <div className="hangman__infos">
                 <div className="hangman__err-count">
-                    <p>1</p>
+                    <p className='hangman__number'>1</p>
                 </div>
                 <div className="hangman__err-txt">
                     <p>Ok</p>

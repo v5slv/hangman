@@ -1,6 +1,6 @@
 .hangman {
     display: flex;
-    gap: 3em;
+    gap: 1em;
     align-items: center;
     background-color: antiquewhite;
     padding: 2em;
@@ -9,4 +9,35 @@
 
 .hangman__svg {
     height: 30vh;
+}
+
+.hangman__infos {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.hangman__err-count {
+    background-color: #D6654D;
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.hangman__number {
+    margin: 0;
+    padding-right: 0.5rem;
+}
+
+.hangman__err-txt {
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
 }
