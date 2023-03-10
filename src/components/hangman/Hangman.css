@@ -1,0 +1,12 @@
+.hangman {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.hangman__svg {
+    height: 30vh;
+}
