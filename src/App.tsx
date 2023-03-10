@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Intro } from './components/intro/Intro';
 import { Keyboard } from './components/keyboard/Keyboard';
 import { Word } from './components/word/Word';
+import { Hangman } from './components/hangman/Hangman';
 import './App.css';
 
 const App = () => {
@@ -9,7 +10,10 @@ const App = () => {
 
   return (
     <div className="App">
-        <Intro />
+        <div className="intro-hangman">
+          <Intro />
+          <Hangman />
+        </div>
         <Word />
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

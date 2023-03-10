@@ -5,3 +5,9 @@
     flex-direction: column;
     margin: auto;
 }
+
+.intro-hangman {
+    display: flex;
+    align-items: center;
+    gap: 5em;
+}

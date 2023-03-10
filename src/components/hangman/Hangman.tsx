@@ -1,3 +1,3 @@
 export const Hangman = () => {
-    return <p>cool</p>
+    return <img src="drawing.svg" alt="" />
 }
