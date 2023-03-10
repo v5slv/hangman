@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import './Hangman.css';
 
 export const Hangman = () => {
+    const [errCount, setErrCount] = useState(0);
+
     return (
         <div className="hangman">
             <svg className='hangman__svg' width="260" height="320" viewBox="0 0 337 320" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,8 +21,9 @@ export const Hangman = () => {
             </svg>
             <div className="hangman__infos">
                 <div className="hangman__err-count">
-                    <p className='hangman__number'>1</p>
+                    <p className='hangman__number'>{errCount}</p>
                 </div>
+                <button onClick={() => setErrCount(errCount + 1)}>1 erreur de plus</button>
                 <div className="hangman__err-txt">
                     <p>Ok</p>
                 </div>

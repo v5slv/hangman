@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import { Intro } from './components/intro/Intro';
 import { Keyboard } from './components/keyboard/Keyboard';
 import { Word } from './components/word/Word';

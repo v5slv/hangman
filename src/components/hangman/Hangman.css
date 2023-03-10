@@ -1,6 +1,6 @@
 .hangman {
     display: flex;
-    gap: 1em;
+    gap: 2em;
     align-items: center;
     background-color: antiquewhite;
     padding: 2em;
@@ -27,13 +27,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5rem;
-    line-height: 5rem;
+    font-size: 3rem;
+    line-height: 3rem;
 }
 
 .hangman__number {
     margin: 0;
-    padding-right: 0.5rem;
 }
 
 .hangman__err-txt {
